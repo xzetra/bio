@@ -1,46 +1,50 @@
+/*background color and text color*/
 body{
     color : white;
     background-color: black;
 }
-
 img{
     display:block;
     width:100%;
     height:4%;
 }
+/*css for header sections*/
 #bio,#interests,#spotify,#youtube{
     margin:auto;
     width:40%;
     padding:0px;
 }
+/*header styles*/
 h1{
     text-align: center;
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+/*header 2 styles*/
 h2{
     text-align: center;
     font-family: monospace;
     font-size: 30px;
 }
-.hList{
-    display:inline;
-    color:white;
-    font:20px Monospace;
-}
+
+/*changes bullet-point style for unordered list */
 .navbar ul {
     list-style-type:armenian;
   }
+  /*null code */
 a{
     color: #ffffff;
     transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
   }
+  /*link visit */
   a:visited{
       color:inherit;
   }
+  /*link hover styling */
   a:hover,button:hover{
       cursor:grab;
       color: rgb(7, 255, 118);
   }
+  /*paragraph and other links styling */
 p,.font{
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -49,10 +53,12 @@ p,.font{
     margin:auto;
     border:1px solid white;
 }
+/*list font sizing */
 li, ul{
     font-size:20px;
 
 }
+/*javascript theme button */
 .change-theme{
     background-color: #ffffff;
     color: #000000; 
@@ -60,15 +66,18 @@ li, ul{
     user-select: none;
 
 }
+/*javascript theme button */
 .change-theme h1, .change-theme h2, .change-theme ul, .change-theme p {
     color: #000000;
     border-color: black;
 }
+/*embed styling*/
 iframe{
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
+/*button styling*/
 button{
     margin-left:auto;
     margin-right: auto;
