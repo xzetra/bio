@@ -4,9 +4,7 @@ body{
     background-color: black;
 }
 img{
-    display:block;
-    width:100%;
-    height:4%;
+    display:inline-block;
 }
 /*css for header sections*/
 #bio,#interests,#spotify,#youtube{
@@ -29,6 +27,7 @@ h2{
 /*changes bullet-point style for unordered list */
 .navbar ul {
     list-style-type:armenian;
+    
   }
   /*null code */
 a{
@@ -52,6 +51,7 @@ p,.font{
     height:fit-content;
     margin:auto;
     border:1px solid white;
+    
 }
 /*list font sizing */
 li, ul{
