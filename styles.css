@@ -44,6 +44,9 @@ h3{
     list-style-type:disc;
     
   }
+embed{
+    margin:auto;
+}
   /*null code */
 a{
     color: #ffffff;
